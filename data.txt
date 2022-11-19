@@ -1,0 +1,32 @@
+A. Exploratory Data Analysis
+– 1. Read, clean and explore the received data. Explain each step and
+why.
+
+Steps: 
+(1) undestanding all datas, to take decisions about importance and redundance
+(2) manipulating the data  
+(3) substituing null datas 
+(4) transform categorical data in int value.
+(5) droping outliers
+ 
+– 2. What’s the distribution for customer total debt variable? Draw a
+histogram. How should you group this variable?	
+
+The distribution is fisher distribution, where 
+
+– 3. Analyze the “collected” variable correlating it to separate variables.
+Plot this information.
+
+B. Feature selection
+
+– 1. Select the top 3-6 variables you consider that may be most
+important for root-cause analysis. Explain your considerations.
+1° collected, because is the principal information to undertand if the debt was paid.
+2° disconnection_executed, understand if the method was efficient
+3° total_debt, unsderstand how much is the cost of the debt, becouse a big debit have more chances to not be paid.
+4° regional, we can see difference in bad debt collected by region.
+5° total_bills, more bills increase the chance of bad debt don't be payed
+6°
+– 2. Are there any kind of preprocessing needed for these variables? Do
+that if so.
+In Categorical data, is necessary transform strings in number, so the best decision is creat a new columns, with numbers correspondents.
